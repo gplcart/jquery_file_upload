@@ -35,7 +35,7 @@ class JqueryFileUpload extends Module
             'name' => /* @text */'jQuery File Upload',
             'description' => /* @text */'File Upload widget with multiple file selection, drag&drop support, progress bars, validation and preview images, audio and video for jQuery',
             'type' => 'asset',
-            'module' => 'file_manager',
+            'module' => 'jquery_file_upload',
             'url' => 'https://github.com/blueimp/jQuery-File-Upload',
             'download' => 'https://github.com/blueimp/jQuery-File-Upload/archive/v9.19.1.zip',
             'version_source' => array(
