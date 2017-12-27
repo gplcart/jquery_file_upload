@@ -14,7 +14,7 @@ use gplcart\core\Library;
 /**
  * Main class for Jquery File Upload module
  */
-class JqueryFileUpload
+class Module
 {
 
     /**
