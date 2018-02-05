@@ -38,8 +38,8 @@ class Main
     public function hookLibraryList(array &$libraries)
     {
         $libraries['jquery_file_upload'] = array(
-            'name' => /* @text */'jQuery File Upload',
-            'description' => /* @text */'File Upload widget with multiple file selection, drag&drop support, progress bars, validation and preview images, audio and video for jQuery',
+            'name' => 'jQuery File Upload', // @text
+            'description' => 'File Upload widget with multiple file selection, drag&drop support, progress bars, validation and preview images, audio and video for jQuery', // @text
             'type' => 'asset',
             'module' => 'jquery_file_upload',
             'url' => 'https://github.com/blueimp/jQuery-File-Upload',
