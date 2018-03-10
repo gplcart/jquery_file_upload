@@ -11,8 +11,21 @@
   ],
   "license": "GPL-3.0-or-later",
   "require": {
-    "gplcart/composer-module-installer": "*"
+    "gplcart/composer-module-installer": "^1",
+    "assets/jquery_file_upload": "9.19.1"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  "repositories": [
+    {
+      "type": "package",
+      "packagist.org": false,
+      "package": {
+        "name": "assets/jquery_file_upload",
+        "version": "9.19.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/blueimp/jQuery-File-Upload/archive/v9.19.1.zip"
+        }
+      }
+    }
+  ]
 }
