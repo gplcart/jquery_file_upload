@@ -44,11 +44,9 @@ class Main
             'module' => 'jquery_file_upload',
             'url' => 'https://github.com/blueimp/jQuery-File-Upload',
             'download' => 'https://github.com/blueimp/jQuery-File-Upload/archive/v9.19.1.zip',
-            'version_source' => array(
-                'file' => 'vendor/jquery-file-upload/package.json'
-            ),
+            'version' => '9.19.1',
             'files' => array(
-                'vendor/jquery-file-upload/js/jquery.fileupload.js'
+                'js/jquery.fileupload.js'
             ),
         );
     }
